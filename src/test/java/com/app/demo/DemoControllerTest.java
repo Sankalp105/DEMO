@@ -23,7 +23,7 @@ public class DemoControllerTest {
 	
 	@Test
 	void testCharacterCount1() {
-		assertEquals(" (g) is occured 2 times (y) is occured 1 times (e) is occured 2 times (b) is occured 2 times (j) is occured 1 times (u) is occured 1 times",demoController.characterCount("gygebjbeu"));
+		assertEquals("(b) is occurred 1 times (S) is occurred 1 times (c) is occurred 1 times (E) is occurred 1 times (u) is occurred 1 times (F) is occurred 1 times (v) is occurred 1 times (y) is occurred 1 times (I) is occurred 1 times ",demoController.characterCount("ybSFEIuvc"));
 		assertEquals("Invalid String",demoController.characterCount("GTEsfr34"));
 	}
 }
